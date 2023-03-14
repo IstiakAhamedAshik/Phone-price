@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PHONE</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/76ca269b72.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="phone-container">
+      <div class="phone-details">
+        <img src="i-phone-2.jpg" alt="" />
+        <p style="font-size: 25px; color: rgb(182, 21, 109)">
+          iPhone 11 128gb -Black
+        </p>
+        <div class="phone-count">
+          <i id="decrise-phone" class="fas fa-minus"></i>
+          <input id="phone-quantity" type="number" value="0" />
+          <i id="incries-phone" class="fas fa-plus"></i>
+        </div>
+        <p style="font-size: 35px; color: rgb(182, 21, 109)">
+          $<span id="phone-price">1290</span>
+        </p>
+        <i
+          style="color: red; font-size: 25px; cursor: pointer"
+          class="fas fa-times"
+        ></i>
+      </div>
+      <div class="phone-details-1">
+        <img src="i-phone3.jpg" alt="" />
+        <p style="font-size: 25px; color: rgb(182, 21, 109)">
+          iPhone 11 Case -Black
+        </p>
+        <div class="phone-count">
+          <i id="decrise" class="fas fa-minus"></i>
+          <input id="case-quantity" type="number" value="0" />
+          <i id="incries" class="fas fa-plus"></i>
+        </div>
+        <p style="font-size: 35px; color: rgb(182, 21, 109)">
+          $<span id="case-price">80</span>
+        </p>
+        <i
+          style="color: red; font-size: 25px; cursor: pointer"
+          class="fas fa-times"
+        ></i>
+      </div>
+      <div class="total-estimate">
+        <p style="font-size: 23px; font-weight: 700; margin-left: 150px">
+          Subtotal:<span class="price">$<span id="subtotal">1219</span></span>
+        </p>
+        <p
+          style="
+            margin-top: 0px;
+            font-size: 23px;
+            font-weight: 700;
+            margin-left: 150px;
+          "
+        >
+          Tax:<span class="price">$<span id="tax">0</span></span>
+        </p>
+        <p
+          style="
+            margin-top: 0px;
+            font-size: 23px;
+            font-weight: 700;
+            margin-left: 150px;
+          "
+        >
+          Total:<span class="price">$<span id="total">2341</span></span>
+        </p>
+      </div>
+    </div>
+    <script src="phone.js"></script>
+  </body>
+</html>

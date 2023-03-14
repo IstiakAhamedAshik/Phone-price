@@ -1,0 +1,59 @@
+.phone-container {
+  margin: 0 auto;
+  width: 1000px;
+}
+.phone-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.phone-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: rgb(250, 215, 234);
+}
+.phone-count input {
+  width: 70px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid wheat;
+}
+.phone-count i {
+  margin: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.phone-details-1 {
+  background-color: rgb(250, 215, 234);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone-details-1 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.total-estimate {
+  background-color: rgb(250, 215, 234);
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.price {
+  float: right;
+  margin-right: 150px;
+}
